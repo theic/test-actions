@@ -1,0 +1,19 @@
+{
+  "name": "test-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "node dist/index",
+    "start": "npm run build && npm run serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.3",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.3"
+  }
+}
